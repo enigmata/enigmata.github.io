@@ -33,6 +33,14 @@
                 max-width: 1080px;
                 margin: 0 auto;
             }
+
+            header {
+                display: flex;
+            }
+
+            #name-and-address {
+                text-align: right;
+            }
         </style>
     </head>
     <body>
@@ -42,13 +50,15 @@
 
         <div class="container">
             <header>
-                <h1>Randy Horman</h1>
+                <div id="name-and-address">
+                    <h1>Randy Horman</h1>
+                    <address>
+                        <p>21 Northern Dancer Blvd, Toronto, ON <span>M4L 3Z8</span></p>
+                        <p><span>rwhorman@gmail.com</span></p>
+                        <p><span>647-292-1300</span></p>
+                    </address>
+                </div>
                 <img src="../../images/randy-portrait-med.png" alt="Randy's Portrait">
-                <address>
-                    <p>21 Northern Dancer Blvd, Toronto, ON <span>M4L 3Z8</span></p>
-                    <p><span>rwhorman@gmail.com</span></p>
-                    <p><span>647-292-1300</span></p>
-                </address>
             </header>
             <main>
                 <section>
