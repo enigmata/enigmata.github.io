@@ -25,12 +25,8 @@
                 box-sizing: inherit;
             }
 
-            body * + * {
-                margin-top: 1.5em;
-            }
-
             .container {
-                max-width: 1080px;
+                max-width: 800px;
                 margin: 0 auto;
             }
 
@@ -40,6 +36,11 @@
 
             #name-and-address {
                 text-align: right;
+                flex: 80%;
+            }
+
+            #my-pic {
+                flex: 20%;
             }
 
             #my-name {
@@ -62,7 +63,9 @@
                         <p><span>647-292-1300</span></p>
                     </address>
                 </div>
-                <img src="../../images/randy-portrait-med.png" alt="Randy's Portrait">
+                <div id="my-pic">
+                    <img src="../../images/randy-portrait-med.png" alt="Randy's Portrait">
+                </div>
             </header>
             <main>
                 <section>
