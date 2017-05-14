@@ -20,6 +20,11 @@
                 box-sizing: border-box;
             }
 
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
             *,
             ::before,
             ::after {
@@ -28,20 +33,22 @@
             }
 
             .container {
-                max-width: 800px;
-                margin: 10px auto;
+                max-width: 1000px;
+                min-width: 780px;
+                margin-right: 10px;
+                margin-left: 10px;
             }
 
             .banner {
                 background-color: #566D7C;
-                height: 100px;
+                height: 150px;
             }
 
             header {
                 top: 0px;
-                position: absolute;
-                width: 800px;
                 display: flex;
+                margin-top: -150px;
+                margin-bottom: -50px;
             }
 
             #name-and-address {
@@ -52,7 +59,8 @@
 
             address > p {
                 font-style: normal;
-                margin: 0.2em auto;
+                margin-top: 0.2em;
+                font-size: 1.2em;
             }
 
             #my-pic {
@@ -64,15 +72,16 @@
             #my-name {
                 color: #FFFFFF;
                 font-variant: small-caps;
-                font-size: 4em;
+                font-size: 4.5em;
                 font-weight: 700;
-                margin-top: 0.4em;
-                margin-bottom: 0.2em;
+                margin-top: 0.8em;
+                margin-bottom: 0.3em;
+                white-space: nowrap;
             }
 
             section > h2 {
                 font-variant: small-caps;
-                font-size: 2em;
+                font-size: 2.5em;
                 color: #566D7C;
             }
 
