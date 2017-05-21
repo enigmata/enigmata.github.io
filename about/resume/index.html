@@ -131,6 +131,86 @@
             .details {
                 flex: 85%;
             }
+
+            @media (max-width: 414px) {
+                body {
+                    padding: 2px;
+                    margin: 0 auto 2px auto;
+                    min-width: 320px;
+                }
+
+                .container {
+                    padding: 2px;
+                }
+                .banner {
+                    height: 2.5em;
+                }
+                header {
+                    margin: -2.5em 0 -2em 0;
+                }
+                #name-and-address {
+                    margin: 0 2px 0 2px;
+                }
+                #my-name {
+                    font-size: 2em;
+                    letter-spacing: 0.2em;
+                    margin: 10px 0 -2px 0;
+                }
+                address > p {
+                    margin: 0.2em 0.4em 0 0;
+                    font-size: 0.7em;
+                    line-height: 0.95;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                #my-pic {
+                    margin: 6px 9px 3px 3px;
+                    width: 50px;
+                }
+                main {
+                    font-size: 0.8em;
+                }
+                main > section > h2 {
+                    font-size: 1.5em;
+                }
+                .experience {
+                    flex-direction: column;
+                }
+                .time-period {
+                }
+                .edu-degree-earned, .work-role {
+                    margin-top: 0.2em;
+                    font-size: 1em;
+                    color: rgba(86,109,124,0.8);
+                    border-bottom: thin solid rgba(86,109,124,0.2);
+                    border-top: thin solid rgba(86,109,124,0.2);
+                }
+            }
+            @media (max-width: 375px) {
+                #my-name {
+                    font-size: 1.8em;
+                    margin: 13px 0 -2px 0;
+                }
+                main {
+                    font-size: 0.7em;
+                }
+            }
+            @media (max-width: 320px) {
+                #my-name {
+                    font-size: 1.6em;
+                    margin: 13px 0 -2px 0;
+                }
+                main {
+                    font-size: 0.65em;
+                }
+                address > p {
+                    margin: 0.2em 0.4em 0 0;
+                    font-size: 0.6em;
+                    line-height: 0.8;
+                }
+            }
         </style>
     </head>
     <body>
